@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    padding: 5px;
+    height:40px;
+    width:170px;
+}
+
+.nav li{
+    text-decoration: none;
+}
+
+.pg1 {
+    background-image: url(../img/background/BG2.avif);
+    background-size: cover;
+    width: 320px;
+    height: 500px;
+    background-position:center;
+}
