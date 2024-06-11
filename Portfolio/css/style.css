@@ -10,6 +10,7 @@
     width: 100%;
     background-color: white;
     position: fixed;
+    z-index: 999;
 }
 
 .logo {
@@ -90,7 +91,8 @@
     cursor: pointer;
     /* width: 22em; */
     max-width: 320px;
-    padding: 2em 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
     background: #FFF;
     box-shadow: 0 0 6px 0 rgba(#202024, .12);
     transition: all .35s ease;
@@ -121,6 +123,7 @@
     .content {
       /* width: 18em; */
       /* max-width: 80%; */
+      width: 100%;
       text-align: center;
     }
     
@@ -130,11 +133,6 @@
       transform: translateY(1em);
       transition: all .55s ease;
       
-      p {
-        /* margin: 1.5em 0 0; */
-        color: #6E6E70;
-        line-height: 1.4em;
-      }
     }
     
     &:hover {
