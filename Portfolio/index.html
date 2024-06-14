@@ -17,10 +17,21 @@
                 <img src=" img/illustrations/logo2.png" alt="" class="logo">
             </div>
 
+            <div class="menu d-none d-md-block">
+                <ul >
+                    <li><a href="#1">Home</a></li>
+                    <li><a href="#2">About</a></li>
+                    <li><a href="#3">Education</a></li>
+                    <li><a href="#4">Skills</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+            </div>
+            
             <div class="">
-                <button class="btn btn-light-emphasis " type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="img/illustrations/hb.png"
-                        alt="" class="p-3 "></button>
+                <button class="btn btn-light-emphasis d-md-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <img src="img/illustrations/hb.png" alt="" class="p-3 "></button>
 
                 <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasRight"
                     aria-labelledby="offcanvasRightLabel">
@@ -33,14 +44,14 @@
                         </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <div class="offcanvas-body">
-                        <ul class="d-md-flex justify-content-evenly w-100 ">
-                            <li><a href="" class="text-decoration-none text-secondary">Home</a></li>
-                            <li><a href="" class="text-decoration-none text-secondary">About</a></li>
-                            <li><a href="" class="text-decoration-none text-secondary">Education</a></li>
-                            <li><a href="" class="text-decoration-none text-secondary">Skills</a></li>
-                            <li><a href="" class="text-decoration-none text-secondary">Projects</a></li>
-                            <li><a href="" class="text-decoration-none text-secondary">Contact</a></li>
+                    <div class="offcanvas-body menu" >
+                        <ul class=" d-flex flex-column w-100 ">
+                            <li data-bs-dismiss="offcanvas" data-bs-toggle="offcanvasRight"><a href="#1" class="text-decoration-none text-secondary"  style="padding:5px 10px;">Home</a></li>
+                            <li data-bs-dismiss="offcanvas" data-bs-toggle="offcanvasRight"><a href="#2" class="text-decoration-none text-secondary" style="padding:5px 10px;">About</a></li>
+                            <li data-bs-dismiss="offcanvas" data-bs-toggle="offcanvasRight"><a href="#3" class="text-decoration-none text-secondary" style="padding:5px 10px;">Education</a></li>
+                            <li data-bs-dismiss="offcanvas" data-bs-toggle="offcanvasRight"><a href="#4" class="text-decoration-none text-secondary" style="padding:5px 10px;">Skills</a></li>
+                            <li data-bs-dismiss="offcanvas" data-bs-toggle="offcanvasRight"><a href="" class="text-decoration-none text-secondary" style="padding:5px 10px;">Projects</a></li>
+                            <li data-bs-dismiss="offcanvas" data-bs-toggle="offcanvasRight"><a href="" class="text-decoration-none text-secondary" style="padding:5px 10px;">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -48,10 +59,10 @@
 
             <nav class="navbar w-100 d-none">
                 <ul class=" d-none d-md-flex justify-content-evenly w-100 " style="list-style-type: none;">
-                    <li><a href="" class="text-decoration-none text-secondary">Home</a></li>
-                    <li><a href="" class="text-decoration-none text-secondary">About</a></li>
-                    <li><a href="" class="text-decoration-none text-secondary">Education</a></li>
-                    <li><a href="" class="text-decoration-none text-secondary">Skills</a></li>
+                    <li><a href="#1" class="text-decoration-none text-secondary">Home</a></li>
+                    <li><a href="#2" class="text-decoration-none text-secondary">About</a></li>
+                    <li><a href="#3" class="text-decoration-none text-secondary">Education</a></li>
+                    <li><a href="#4" class="text-decoration-none text-secondary">Skills</a></li>
                     <li><a href="" class="text-decoration-none text-secondary">Projects</a></li>
                     <li><a href="" class="text-decoration-none text-secondary">Contact</a></li>
                 </ul>
@@ -60,7 +71,7 @@
         </div>
     </header>
 
-    <section>
+    <section id="1">
         <div class="pt-5">
             <img src="img/background/hero.png" alt="" class="hero">
         </div>
@@ -74,12 +85,13 @@
             </p>
         </div>
     </section>
+    <div class="spc p-1" id="2"></div>
 
-    <section>
+    <section id="2">
         <div class="spc container">
             <H3 class="about f3">About me</H3>
             <p class="am1 f1">Full-Stack Developer <br> based in Hadapsar, Pune</p>
-            <p class="intro f2">Hey, my name is Prathamesh, and I'm a Full-Stack Developer. My passion is to create and
+            <p  class="intro f2">Hey, my name is Prathamesh, and I'm a Full-Stack Developer. My passion is to create and
                 develop a clean Websites for my users.</p>
             <!-- <p class="intro f2">My main stack currently is</p> -->
             <!-- <div class="d-flex justify-content-evenly mt-3">
@@ -89,10 +101,12 @@
             <img src="img/illustrations/react.png" alt="" class="imgs">
         </div> -->
 
-        </div>
+        </div >
     </section>
-
-    <section>
+    
+<div class="spc p-1" id="3"></div>
+    
+    <section >
         <div class="spc container">
             <h3 class="about f3">Education</h3>
 
@@ -142,9 +156,10 @@
 
         </div>
     </section>
+    <div class="spc p-1" id="4"></div>
 
     <section>
-        <div class="spc container ">
+        <div class="spc container " >
             <h3 class="about f3">Skills</h3>
             <p class="intro f2">My main stack currently is</p>
             <div class="container d-flex justify-content-evenly p-1">
