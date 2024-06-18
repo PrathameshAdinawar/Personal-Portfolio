@@ -86,12 +86,12 @@
 
   
   .cards {
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: center;
     cursor: pointer;
     /* width: 22em; */
-    max-width: 320px;
+    max-width: 496px;
     padding-top: 10px;
     padding-bottom: 20px;
     background: #FFF;
@@ -203,6 +203,22 @@
   }
 
     
+  img.hoverImages {
+    margin:10px;
+    padding: 3px;
+    /* outline:2px solid #DDD; */
+    border:#a1a1a1;
+    float:left;
+    -webkit-transition: margin 0.5s ease-out;
+      -moz-transition: margin 0.5s ease-out;
+      -o-transition: margin 0.5s ease-out;
+  }
+  
+  img.hoverImages:hover {
+    cursor:pointer;
+      margin-top: 1px;
+      transform: scale(1.1);
+  }
 
   
   
