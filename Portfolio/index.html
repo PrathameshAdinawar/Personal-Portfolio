@@ -10,7 +10,45 @@
     <title>Portfolio</title>
 </head>
 
+
 <body>
+
+
+<div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">
+            <div class="w-75">
+                <img src=" img/illustrations/logo2.png" alt="" class="logo" style="height: 14px; margin:0px;">
+            </div>
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <!-- <style>
+        .menu {
+            height: 20vh;
+        }
+    </style> -->
+    <div class="offcanvas-body menu">
+        <ul class=" d-flex flex-column w-100 ">
+            <li data-bs-dismiss="offcanvas" data-bs-toggle="offcanvasRight"><a href="#1"
+                    class="text-decoration-none text-secondary" style="padding:5px 10px;">Home</a></li>
+            <li data-bs-dismiss="offcanvas" data-bs-toggle="offcanvasRight"><a href="#2"
+                    class="text-decoration-none text-secondary" style="padding:5px 10px;">About</a></li>
+            <li data-bs-dismiss="offcanvas" data-bs-toggle="offcanvasRight"><a href="#3"
+                    class="text-decoration-none text-secondary" style="padding:5px 10px;">Education</a>
+            </li>
+            <li data-bs-dismiss="offcanvas" data-bs-toggle="offcanvasRight"><a href="#4"
+                    class="text-decoration-none text-secondary" style="padding:5px 10px;">Skills</a>
+            </li>
+            <li data-bs-dismiss="offcanvas" data-bs-toggle="offcanvasRight"><a href=""
+                    class="text-decoration-none text-secondary" style="padding:5px 10px;">Projects</a>
+            </li>
+            <li data-bs-dismiss="offcanvas" data-bs-toggle="offcanvasRight"><a href=""
+                    class="text-decoration-none text-secondary" style="padding:5px 10px;">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
     <header class="head">
         <div class="d-flex justify-content-between ">
             <div class="pt-1 ps-1 w-75">
@@ -28,43 +66,12 @@
                 </ul>
             </div>
 
-            <div class="">
+            <div class="sidemenu">
                 <button class="btn btn-light-emphasis d-md-none" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                     <img src="img/illustrations/hb.png" alt="" class="p-3 "></button>
 
-                <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasRight"
-                    aria-labelledby="offcanvasRightLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasRightLabel">
-                            <div class="w-75">
-                                <img src=" img/illustrations/logo2.png" alt="" class="logo"
-                                    style="height: 14px; margin:0px;">
-                            </div>
-                        </h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body menu">
-                        <ul class=" d-flex flex-column w-100 ">
-                            <li data-bs-dismiss="offcanvas" data-bs-toggle="offcanvasRight"><a href="#1"
-                                    class="text-decoration-none text-secondary" style="padding:5px 10px;">Home</a></li>
-                            <li data-bs-dismiss="offcanvas" data-bs-toggle="offcanvasRight"><a href="#2"
-                                    class="text-decoration-none text-secondary" style="padding:5px 10px;">About</a></li>
-                            <li data-bs-dismiss="offcanvas" data-bs-toggle="offcanvasRight"><a href="#3"
-                                    class="text-decoration-none text-secondary" style="padding:5px 10px;">Education</a>
-                            </li>
-                            <li data-bs-dismiss="offcanvas" data-bs-toggle="offcanvasRight"><a href="#4"
-                                    class="text-decoration-none text-secondary" style="padding:5px 10px;">Skills</a>
-                            </li>
-                            <li data-bs-dismiss="offcanvas" data-bs-toggle="offcanvasRight"><a href=""
-                                    class="text-decoration-none text-secondary" style="padding:5px 10px;">Projects</a>
-                            </li>
-                            <li data-bs-dismiss="offcanvas" data-bs-toggle="offcanvasRight"><a href=""
-                                    class="text-decoration-none text-secondary" style="padding:5px 10px;">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+
             </div>
 
             <nav class="navbar w-100 d-none">
@@ -173,20 +180,26 @@
             <h3 class="about f3">Skills</h3>
             <p class="intro f2">My main stack currently is</p>
             <div class="container d-flex justify-content-evenly p-1">
-               <div> <img class="hoverImages" src="img/illustrations/html.png" alt="" class="imgs">
-                <p class="intro f2">HTML</p></div>
-               <div> <img class="hoverImages" src="img/illustrations/css-3.png" alt="" class="imgs" >
-                <p class="intro f2">CSS</p></div>
-               <div><img class="hoverImages" src="img/illustrations/bootstrap-logo-shadow.png" alt="" class="imgs" style="height: 70px">
-                <p class="intro f2">Bootstrap</p></div> 
+                <div> <img class="hoverImages" src="img/illustrations/html.png" alt="" class="imgs">
+                    <p class="intro f2">HTML</p>
+                </div>
+                <div> <img class="hoverImages" src="img/illustrations/css-3.png" alt="" class="imgs">
+                    <p class="intro f2">CSS</p>
+                </div>
+                <div><img class="hoverImages" src="img/illustrations/bootstrap-logo-shadow.png" alt="" class="imgs"
+                        style="height: 70px">
+                    <p class="intro f2">Bootstrap</p>
+                </div>
             </div>
 
             <div class="container d-flex justify-content-evenly  p-22">
                 <div>
-                    <img class="hoverImages" src="img/illustrations/js.png" alt="" class="imgs" >
-                    <p class="intro f2 ">Java  Script</p></div>
+                    <img class="hoverImages" src="img/illustrations/js.png" alt="" class="imgs">
+                    <p class="intro f2 ">Java Script</p>
+                </div>
                 <div><img class="hoverImages align-self-center" src="img/illustrations/jq.png" alt="" class="imgs">
-                    <p class="intro f2">jQerry</p></div>
+                    <p class="intro f2">jQerry</p>
+                </div>
                 <div>
                     <img class="hoverImages" src="img/illustrations/react.png" alt="" class="imgs">
                     <p class="intro f2">React</p>
@@ -195,24 +208,30 @@
 
             <div class="container d-flex justify-content-evenly  p-1">
                 <div> <img class="hoverImages" src="img/illustrations/java.png" alt="" class="imgs">
-                    <p class="intro f2">Java</p></div>
-               <div> <img class="hoverImages" src="img/illustrations/spb.png" alt="" class="imgs" >
-                <p class="intro f2 pt-2">Springboot</p></div>
-               <div> <img class="hoverImages" src="img/illustrations/sp.png" alt="" class="imgs" >
-                <p class="intro f2 pt-2">Spring</p></div>
+                    <p class="intro f2">Java</p>
+                </div>
+                <div> <img class="hoverImages" src="img/illustrations/spb.png" alt="" class="imgs">
+                    <p class="intro f2 pt-2">Springboot</p>
+                </div>
+                <div> <img class="hoverImages" src="img/illustrations/sp.png" alt="" class="imgs">
+                    <p class="intro f2 pt-2">Spring</p>
+                </div>
             </div>
 
             <div class="container d-flex justify-content-evenly pt-2 p-1">
-               <div> <img class="hoverImages" src="img/illustrations/Hibernate.png" alt="" class="imgs"
-                    ><p class="intro f2">Hibernate</p></div>
-             <div>   <img class="hoverImages" src="img/illustrations/mq.png" alt="" class="imgs"><p class="intro f2 pt-2">My SQL</p></div>
+                <div> <img class="hoverImages" src="img/illustrations/Hibernate.png" alt="" class="imgs">
+                    <p class="intro f2">Hibernate</p>
+                </div>
+                <div> <img class="hoverImages" src="img/illustrations/mq.png" alt="" class="imgs">
+                    <p class="intro f2 pt-2">My SQL</p>
+                </div>
 
             </div>
 
         </div>
     </section>
 
-    <section> 
+    <section>
         <div class="spc container">
             <h3 class="about f3">Contact</h3>
         </div>
