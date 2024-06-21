@@ -45,7 +45,7 @@
 }
 
 .f3{
-    color: #147efb;
+    color: rgb(20, 126, 251);
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -96,38 +96,21 @@
   .cards {
     /* position: relative; */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     cursor: pointer;
-    /* width: 22em; */
     max-width: 496px;
-    padding-top: 10px;
+    padding: 10px;
     padding-bottom: 20px;
-    background: #FFF;
-    box-shadow: 0 0 6px 0 rgba(#202024, .12);
+    background-color: rgba(247, 247, 247, 0);
+    backdrop-filter: blur(10px);
     transition: all .35s ease;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(33,33,33,.2); 
+
+    /* border: 2px solid red; */
+    /* gap: 10px; */
     
-    
-    /* &::before, &::after {
-      content: "";
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%;
-      background: #000;
-      height: 4px;
-    }
-    
-    &::before {
-      width: 0;
-      opacity: 0;
-      transition: opacity 0 ease, width 0 ease;
-      transition-delay: .5s;
-    }
-    
-    &::after {
-      width: 100%;
-      background: white;
-      transition: width .5s ease;
-    } */
+  
     
     .content {
       /* width: 18em; */
@@ -141,24 +124,26 @@
       max-height: 0;
       transform: translateY(1em);
       transition: all .55s ease;
-      
+      /* box-shadow: 0 0 20px 0 rgba(#000000ac, .12); */
+
     }
     
     &:hover {
       /* width: 24em; */
-      box-shadow: 0 10px 20px 0 rgba(#202024, .12);
       
       &::before {
         width: 100%;
         opacity: 1;
         transition: opacity .5s ease, width .5s ease;
         transition-delay: 0;
+        
       }
       
       &::after {
         width: 0;
         opacity: 0;
         transition: width 0 ease;
+        /* box-shadow: 0 0 20px 0 rgba(#000000ac, .12); */
       }
       
     
@@ -166,10 +151,17 @@
       .hover_content {
         max-height: 12em;
         transform: none;
+        /* box-shadow: 0 0 20px 0 rgba(#000000ac, .12); */
+
       }
     }
   }
 
+  .cards:hover {
+    box-shadow: 0 0 15px rgba(20, 128, 251, 0.721); 
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+  }
 
   .menu ul { 
     
@@ -178,6 +170,8 @@
     display: table;
     width: 600px;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
   }
   .menu li { 
     display: table-cell; 
@@ -226,7 +220,8 @@
   img.hoverImages:hover {
     cursor:pointer;
       margin-top: 1px;
-      transform: scale(1.1);
+      transform: scale(1.1); 
+      filter: drop-shadow(0 0 15px rgba(33, 33, 33, 0.37));
   }
 
   
