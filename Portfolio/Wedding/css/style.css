@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Sail&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    align-items: center;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+.hbb{
+    width: 40px;
+    height: 37px;
+}
+
+.hbb img{
+    border-radius: 3px;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color:#835845;
+}
+
+.head a{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "Sail", cursive;
+    text-decoration: none;
+    color: #835845;
+}
+
+.head{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.089);
+}
+
+.weds img{
+    max-width: 450px;
+    /* border: 2px solid red   ; */
+}
+
+.main{
+    padding-top: 200px;
+}
+
+.maindiv{
+    background-color: #FFFBFB;
+    max-height: fit-content;
+}
+
+.rj h1{
+    font-family: "Sail", cursive;
+    font-size: 45px;
+    color: #101010;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bigd p{
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    color: #5C5C5C;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.timerc h1{
+    font-family:"Sail", cursive;
+    font-size: 40px;
+    color: #835845;
+}
+
+.timerc p{
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    color: #5C5C5C;
+}
+
+.timercbg{
+    background-image: url(../images/Background/date-bg.png);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    height: 200px;  
+    /* border: 2px solid red;  */
+}
+
+.rdn h3{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #101010;
+    font-family: "Sail", cursive;
+}
+
+.rdn p{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    color: #5C5C5C;
+    font-size: 17px;
+    font-family: "Jost", sans-serif;
+}
+
+.clpimg{
+    position: relative;
+    top: -330px;
+    left: 40px;
+}
+
+.cpl{
+    height: 350px;
+    /* border: 2px solid red; */
+}
+
+.vid1{
+    width: 95%;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    overflow: hidden;
+    object-fit: cover; 
+    padding: 5px;
+    background: #fff;
+}
+
+.vid1 img{
+   max-width: 100%;
+   vertical-align: middle;
+}
+
+.os{
+    
+}
+
+.os span{
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #835845;
+    font-size: 18px;
+}
+
+.os h2{
+    font-size: 25px;
+    font-family: "Sail";
+    font-weight: 400;
+}
+
+.os p{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: #5C5C5C;
+    font-family: "Jost", sans-serif;
+}
+
+.bg2{
+    background-image: url(../images/Background/bg2.jpg);
+    background-size: 140% 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+}
+
+
+.form h2{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Sail;
+    color: #101010;
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+
+.form input{
+    height: 50px;
+    border:transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+    color: #5C5C5C;
+    font-weight: 400;
+    font-family: inherit;
+}
+
+.rbtn p{
+    /* border: 2px solid red; */
+}
+
+.form button{
+    
+    padding: 12px;
+    border: transparent;
+    background-color: #835845;
+    color: white;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.card-body{
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+}
+
+.card-body h2{
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Sail";
+}
+
+.ft{
+    background-color: #2d2420;
+}
+
+.links h3{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Sail", cursive;
+}
+
+.lnks a{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.habibi h3{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Sail", cursive;
+}
+
+.habibi p{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.9em;
+}
+
+.cont h3{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Sail", cursive;
+}
+
+.cont p{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.9em;
+}
+
+.copyright{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.9em;
+}
+
+@media(min-width:768px){
+
+    .timerc h1{
+        font-size: 50px;
+    }
+
+    .timerc p{
+        font-size: 20px;
+    }
+
+    .timercbg{
+        background-size: 90%;
+    }
+
+    .rdc1{
+        max-width: 330px;
+    }
+
+    .cpl{
+        max-width: 500px;
+    }
+
+    .clpimg{
+        top: -500px;
+        left: 80px;
+    }
+
+    .rdc2{
+        max-width: 330px;
+        margin-top: 100px;
+    }
+
+    .os span{
+        font-size: 25px;
+        margin-top: 20px;
+        /* border: 2px solid red; */
+    }
+
+    .os h2{
+        font-size: 55px;
+        margin-top: 10px;
+    }
+
+    .os1 h2{
+        font-size: 30px;
+    }
+
+    .os p{
+        font-size: 18px;
+    }
+
+    .head a{
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 992px){ 
+
+    .frame{
+        width: 100%;
+        position: relative;
+        top: -650px;
+        overflow: hidden;
+        object-fit: cover;
+        margin: 0;
+        /* border: 2px solid red; */
+    }
+
+    .frame img{
+        width: 1110px;
+        /* border: 2px solid red; */
+    }
+
+    .lgkk{
+        margin-top: 150px;
+        /* border: 2px solid red; */
+    }
+
+    .timercbg{
+        height: 250px;
+    }
+
+    .timerbg{
+        position: relative;
+        top: -500px;
+    }
+
+    .maindiv{
+        max-height: 1100px;
+    }
+
+    .vid1{
+       
+    }
+
+    .vid1 img{
+        max-height: 100%;
+    }
+
+    .os{
+        /* border: 2px solid red; */
+    }
+
+    .kk{
+        /* border: 2px solid red; */
+    }
+}

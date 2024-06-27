@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Sail&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fimg1{
+    width: 130px;
+
+}
+.hhead{
+    background-color: white;
+    z-index: 1;
+}
+.head{
+    
+    /* border: 2px solid red; */
+}
+
+.main img{
+    /* border: 2px solid red; */
+}
+
+.tab-item{
+    font-size: 16px;
+    font-family: Inter;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 700; 
+}
+
+.sale{
+    font-family: Inter;
+    font-size: 13px;
+    width: 45px;
+    position: relative;
+    top: -56%;
+    left: -13%;
+    border: none;
+    /* border: 2px solid red; */
+}
+
+.so{
+    position: relative;
+    top: -18%;
+    left: 1%;
+    width: 98%;
+    font-size: 14px;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+
+.card-title{
+    font-family: Inter;
+    font-size: 15px;
+    letter-spacing: 0.375px;
+    line-height: 20px;
+    position: relative;
+    top: -20%;
+    color: rgb(112, 112, 112);
+    
+}
+
+.c1{
+    border: none;
+    width: 50px;
+    height: 320px;
+    /* border: 2px solid red; */
+}
+
+.heart1{
+    position: relative;
+    top: -56%;
+    left: 80%;
+}
+
+.original-price {
+    font-weight: 700
+  }
+  
+  .discounted-price {
+    color: gray; /* Display the discounted price in red */
+    text-decoration: line-through;
+  }
+
+  .price{
+    position: relative;
+    top: -16%;
+  }
+
+  .seeall{
+    font-size: 14px;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+
+  .newf{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/background/background-section-2-mobile.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .newf p{
+    font-size: 14px;
+    text-align: center;
+    font-family: Inter;
+  }
+
+  .newf h2{
+    font-family: Inter;
+    font-size: 35px;
+    line-height: 1.1em;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.1em;
+  }
+
+  .newf a{
+    font-size: 14px;
+    color: black;
+    line-height: 1.7;
+    font-weight: 700;
+    /* border: 2px solid red; */
+  }
+
+  .deal{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    font-family: Inter;
+    font-weight: 700;
+  }
+
+  .counter-wrapper{
+    background-color: black;
+    color: white;
+  }
+
+  .number{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+  }
+   .hot{
+    font-family: Inter;
+    font-size: 13px;
+    width: 45px;
+    position: relative;
+    top: -180px;
+    left: -20px;
+    color: white;
+    background-color: red;
+    border: none;
+   }
+
+   .review{
+    background-color: #F3F3F3;
+   }
+
+   .review h4{
+    font-size: 18px;
+    letter-spacing: 0.75px;
+    font-family: Inter;
+    font-weight: 700;
+   }
+
+   .ava img{
+    border-radius: 50%;
+    width: 90px;
+    align-items: center;
+   }
+
+   .avastr{
+    position: relative;
+    top: -25px;
+   }
+
+   .content{
+    color: #848484;
+    text-align: center;
+    font-size: 100%;
+    font-family: Inter;
+    position: relative;
+    top: -50px;
+   }
+
+   .content a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+   }
+
+   .bgsec3{
+    width: 100%;
+    height: 330px;
+    background-image: url(../images/background/background-section-3.jpg);
+    background-position: center;
+    background-size: 330% 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+   }
+
+   .bgsec{
+    background-color: rgba(0, 0, 0, 0.788);
+   }
+
+   .bgsec p{
+    text-align: center;
+    color: #FFF;
+    font-size: 15px;
+    line-height: 1.2em;
+    letter-spacing: 0.5em;
+   }
+
+   .dis p{
+    text-align: center;
+    color: #FFF;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0.05em;
+   }
+
+   .E-g p{
+    text-align: center;
+    color: #FFF;
+    font-size: 15px;
+    line-height: 1.6em;
+    letter-spacing: 0.025em;
+   }
+
+   .sn a{
+    font-size: 14px;
+    color: white;
+    line-height: 1.7;
+    font-weight: 600;
+    text-align: center;
+   }
+
+   .sed p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Inter;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.301);
+   }
+
+   .sign h3{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Inter;
+    letter-spacing: 0.75px;
+    text-align: center;
+   }
+
+   .enjoy p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Inter;
+    letter-spacing: 0.05em;
+   }
+
+   .adres input{
+    background-color: #F3F3F3;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 400;
+    width: 50%;
+   }
+
+   .adres button{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    letter-spacing: 0.05em;
+   }
+
+   .signup{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.301);
+   }
+
+   .linkss li{
+    font-size: inherit;
+    font-size: 15px;
+    letter-spacing: 0.05em ;
+   }
+
+   .linkss{
+    line-height: 40px;
+   }
+
+   .tel li{
+    font-size: 15px;
+    
+   }
+
+   .brd{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.301);
+   }
+
+   .rights{
+    font-size: 15px;
+    font-family: Inter;
+    text-align: center;
+   }
+
+   .badge{
+    
+    position: relative;
+    top: -10;
+   }
+
+   @media(min-width:768px){
+
+    .newf{
+      background-image: url(../images/background/background-section-2-1.jpg);
+    }
+
+    .main img{
+      min-width: 768px;
+    }
+
+    .newf h2{
+        width: 50%;
+        /* border: 2px solid red; */
+        position: relative;
+        left: 25%;
+      
+    }
+
+    .ts-countdown{
+      width: 50%
+    }
+
+    .ts-countdown{
+      position: relative;
+      left: 25%;
+      overflow: hidden;
+    }
+
+    .sale{
+      top: -92%;
+      left: -6%;
+    }
+
+    .hot{
+      top: -92%;
+    }
+
+    .heart1{
+      top: -92%;
+      left: 85%;
+    }
+
+   .bgsec3{
+    background-size: 150% 100%;
+   }
+
+   .bgsec{
+    width: 50%;
+   }
+
+   .noni{
+    
+   }
+
+   .sed p{
+    border-bottom: none;
+   }
+
+   .signup{
+    border-bottom: none;
+   }
+
+   .brd{
+    border: none;
+   }
+   }
+
+   @media (min-width: 992px){ 
+
+    .sale{
+      top: -100%;
+      left: -3%;
+    }
+
+    .hot{
+      top: -100%;
+    }
+
+    .seeall{
+      position: relative;
+      top: 30%;
+    }
+
+    .c1{
+      height: 380px;
+    }
+
+    .heart1{
+      top: -100%;
+    }
+   }

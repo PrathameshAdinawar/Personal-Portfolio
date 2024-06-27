@@ -1,0 +1,1069 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    align-items: center;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+
+.logo img{
+    width: 60%;
+}
+
+.menu{
+    width: 50px;
+    height: 45px;
+
+}
+
+.menu img{
+    border-radius: 5px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: #6666ff;
+}
+
+.main{
+    background-color: #0B0B38;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30%;
+    padding-bottom: 60%;
+}
+
+.image1{
+    padding-top: 20%;
+    /* border: 2px solid red; */
+    overflow: hidden;
+    object-fit: cover;
+    align-items: center;
+}
+
+.image1 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    align-items: center; 
+}
+
+.cards{
+    position: absolute;
+    top: 42%;
+    left: 1%;
+    width: 70%;
+    border-radius: 10px;
+    background-color: #2AC28E;
+    /* border: 2px solid red; */
+}
+
+.star{
+    height: 40px;
+    overflow: hidden;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.star img{
+    height: 100px;
+    object-fit: contain;
+}
+
+.cardc{
+    padding-left: 5px;
+    font-family: "Inter";
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.m1{
+    padding-top: 15%;
+    font-family: "Inter";
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.m2{
+    padding-top: 10%;
+    padding-left: 15px;
+}
+
+.m2 h2{
+    font-family: "Inter";
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+} 
+
+.m2 p{
+    color: #9494C0;
+    font-family: "Inter", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.mainbt1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    border: 2px soild blue;
+}
+
+.mainbt1 button{
+    width: 60%;
+    height: 50px;
+    border-radius: 30px;
+    border: #6666ff;
+    background-color: #6666ff;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 40px;
+    
+}
+
+.mainbt2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.mainbt2 button{
+    width: 60%;
+    height: 50px;
+    border-radius: 30px;
+    border: white;
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.nums{
+    padding-top: 15%;
+    /* border: 2px solid red; */
+}
+
+.exp1{
+    padding-top: 10%;
+}
+
+.exp1 h1{
+    font-family: "Inter", Sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.exp1 p{
+    padding-top: 3%;
+    color: #8383AF;
+
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.exp{
+    padding-top: 10%;
+    /* border: 2px solid red; */
+}
+
+.exp h1{
+    font-family: "Inter", Sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.exp p{
+    padding-top: 3%;
+    color: #8383AF;
+
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.s2{
+    /* width: 20%; */
+
+    width: 20%;
+    border: white;
+    background-color: white;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+    box-shadow: 0px 1px 10px#10151342;
+    padding-bottom: 7%;
+    /* box-shadow:rgba(0, 0, 0, 0.668); */
+}
+
+.b1 p{
+    color: #101513;
+    font-family: "Inter", Sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10%;
+    line-height: 36px;
+}
+
+.ms{
+    position: absolute;
+    top: 170%;
+    left: 5%;
+    width: 90%;
+    /* padding-bottom: 10%; */
+}
+
+.c1{
+
+    /* border: 2px solid red; */
+}
+
+.spcs1{
+    /* width: 500px; */
+    padding: 5%;
+    /* border: 2px solid red; */
+}
+
+.spc {
+    /* width: 500px; */
+    padding: 5%;
+    /* border: 2px solid red; */
+}
+
+.mail{
+    /* width: 100%; */
+    border: 1px solid #E5E5F0;
+    /* box-shadow: 10px 10px 5px#101513; */
+    border-radius: 10px;
+}
+
+.p1{
+    color: #656378;
+    padding-top: 10px;
+    font-family: "Inter", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.p2{
+    color: #656378;
+    font-family: "Inter", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.bt2 button{
+    font-family: "Inter", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #2AC28E;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    padding: 30px 65px 30px 65px;
+}
+
+.s1{
+    padding-top: 200%;
+}
+
+.sponsor{
+    /* border: 2px solid red; */
+}
+
+.spnt h3{
+    color: #101513;
+    font-family: "Inter", Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.imgs img{
+    object-fit:cover;
+    align-items: center;
+}
+
+.spnc{
+    padding-top: 5%;
+}
+
+.aboutus span{
+    color: rgb(53, 52, 52);
+    font-family: "Inter", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+}
+
+.des h3{
+    font-family: "Inter", sans-serif !important;
+    color: #101513;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.des1 p{
+    color: #656378;
+    font-family: "Inter", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.points li{
+    font-family: "Inter", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.aboutmore button{
+    width: 60%;
+    height: 55px;
+    border-radius: 30px;
+    border: #6666ff;
+    background-color: #6666ff;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.aboutv{
+    height: 250px;
+    background-image: url(../images/background/meditest-about-ing.png);
+    background-size: 100% 100%;
+    /* border: 2px solid red; */
+    
+}
+
+.aboutv img{
+    position: relative;
+    top: 55%;
+    left: 15%;
+}
+
+.servicecard{
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.096);
+}
+
+.scard1 h3{
+    color: #101513;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.scard1 img{
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 10px#f05da8; */
+}
+
+.appoinbtn button{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    border: #6666ff;
+    background-color: #6666ff;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.stdm{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
+    border-radius: 20px;
+    /* border: 1px solid red; */
+}
+
+.stdh h3{
+    font-family: "Inter", sans-serif !important;
+    color: #101513;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.stdp p{
+    font-family: "Inter", sans-serif !important;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    color: #656378;
+}
+
+.span{
+    font-family: "Inter", sans-serif !important;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+    color: #101513;
+}
+
+.fetr h4{
+    font-family: "Inter", sans-serif !important;
+    color: #101513;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.fetr li{
+    font-family: "Inter", sans-serif !important;
+    list-style: none;
+    color: #101513;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160.023%;
+}
+
+.get button{
+    font-family: "Inter", sans-serif !important;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    border: #6666ff;
+    background-color: #6666ff;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.stdm1{
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178); */
+    border-radius: 20px;
+    background-color: #4F4FD4;
+    /* border: 1px solid red; */
+}
+
+.stdh1 h3{
+    font-family: "Inter", sans-serif !important;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.stdp1 p{
+    font-family: "Inter", sans-serif !important;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
+.span1{
+    font-family: "Inter", sans-serif !important;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+    color: white;
+}
+
+.fetr1 h4{
+    font-family: "Inter", sans-serif !important;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.fetr1 li{
+    font-family: "Inter", sans-serif !important;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160.023%;
+}
+
+.change{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
+    border-radius: 20px;
+    background-color: #5E5EEE;
+
+}
+
+.get1 button{
+    font-family: "Inter", sans-serif !important;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    border: #1B355E;
+    background-color: #1B355E;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.rev img{
+    width: 90%;
+}
+
+.rimg img{
+    width: 17%;
+
+}
+
+.r3 {
+    border-radius: 50%;
+    border: 3px solid #6666ff;
+}
+
+.pp p{
+    color: #656378;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+
+.proimg{
+    width: 30%;
+}
+
+.proimg img{
+    width: 80%;
+    object-fit: cover;
+}
+
+.profn{
+    width: 65%;
+}
+
+.medbg{
+    background-image: url(..//images/background/meditest-appointment-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.spc{
+    border-radius: 20px;
+}
+
+.formh span{
+    color: #5E5EEE;
+    font-family: "Inter", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.fdes h3{
+    font-family: "Inter", sans-serif !important;
+    font-size: 24px;
+    line-height: 36px;
+    color: #101513;
+}
+
+.fname input{
+    font-family: "Inter", sans-serif !important;
+    border-radius: 10px;
+    height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    color: grey;
+    font-size: 15px;
+}
+
+.fbtn button{
+    border-radius: 10px;
+    height: 50px;
+    text-align: left;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    color: grey;
+}
+
+.fname1 input{
+    font-family: "Inter", sans-serif !important;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    color: grey;
+    font-size: 15px;
+    background-color: #e9ecef;
+}
+
+.fp input{
+    color: #656378;
+    border-radius: 10px;
+    border: 1px solid #e5e5f0;
+    padding: 12px 20px;
+    height: 200px;
+    font-size: 15px; 
+}
+
+.formnum{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: "Inter", Sans-serif;
+}
+
+.emerg{
+    font-family: "Inter", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.formbtn button{
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #5E5EEE;
+    border: transparent;
+}
+
+.updc{
+    border-radius: 20px;
+    border: 2px soild red;
+    box-shadow: 0px 4px 40px -3px rgba(0, 2, 3, 0.1);
+    padding: 8px;
+    border: 1px solid #ffffff;
+}
+
+.updcp{
+    /* line-height: 0; */
+    font-size: 16px;
+    color: #656378;
+}
+
+.updh{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: "Inter";
+}
+
+.udpp1 p{
+    font-size: 15px;
+    color: #555555;
+    line-height: 25px;
+}
+
+.meditest h4{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+}
+
+.cardio img{
+    border-radius: 50%;
+}
+
+.udpa a{
+    color: #5E5EEE;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.cardio a{
+    color: #5E5EEE;
+    text-decoration: none;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.ft{
+    background-color: #152137;
+}
+
+.fcard{
+    background-color: #5E5EEE;
+    border-radius: 20px;
+    position: relative;
+    overflow: visible;
+    top: -110px;
+}
+
+.fcard span{
+    color: #DCDCF8;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif 
+}
+
+.fcard h3{
+    font-weight: 600;
+    color: white;
+}
+
+.fmail{
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 55px;
+}
+
+.fmail input{
+    border: none;
+    
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    background: transparent;
+}
+
+.in1::placeholder{
+   color: white;
+   font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.fmail button{
+    color: #5E5EEE;
+    height: 55px;
+    border-radius: 0px 15px 15px 0px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Inter";
+    border: none;    
+}
+
+.flogo p{
+    color: #BBBFC9;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.spt h4{
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.no-bullets{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.spt a{
+    text-decoration: none;
+    color: #BBBFC9;
+    font-family: "Inter", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.end{
+    border-top: 1px solid white;
+    background-color: #152137;
+}
+
+.endp p{
+    font-family: "Inter", sans-serif;
+    color: #E8EEFE;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+ 
+.no-bullets1 a{
+    color: #E8EEFE;
+    font-family: "Inter", Sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ftcard{
+    font-family: "Inter", Sans-serif;
+}
+
+@media(min-width:768px){
+
+    .image1 img{
+        width: 100%;
+        height: 510px;
+    }
+
+    .main{
+        padding-top: 20%;
+        padding-bottom: 30%;
+    }
+
+    .cards{
+        width: 34%;
+        top: 55%;
+        left: 63%;
+    }
+
+
+    .m2 h2{
+        font-size: 48px;
+        line-height: 58px;
+        margin: 0;
+        padding: 0;
+        /* border: 2px solid red; */
+    }
+
+    .mainbts{
+        /* border: 2px solid red; */
+        width: 70%;
+    }
+
+    .mainbt1{
+        /* border: 2px solid red; */
+        justify-content: left;
+        width: 60%;
+    }
+
+    .mainbt2{
+        justify-content: left;
+        
+    }
+
+    .mainbt1 button{
+        width: 95%;
+        /* height: 60px; */
+    }
+
+    .mainbt2 button{
+        width: 57%;
+        /* height: 60px; */
+    }
+
+    .exp h1{
+        font-size: 50px;
+        text-align: left;
+        
+    }
+
+    .exp1 h1{
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .exp1{
+        padding: 3%;
+        padding-bottom: 0;
+    }
+
+    .exp{
+        padding: 3%;
+        padding-bottom: 0;
+        /* border: 2px solid red; */
+        border-left: 1px solid white;
+    }
+
+    .exp p{
+        padding-top: 10%;
+    }
+
+    .exp1 p{
+        padding-top: 10%;
+    }
+
+    .cent{
+        padding-top: 5%;
+    }
+
+    .ms{
+        width: 100%;
+        left: 0;
+        top: 140%;
+    }
+
+    .spcs1{
+        width: 310px;
+        padding: 2%;
+        /* border: 2px solid red; */
+    }
+
+    .s2{
+        padding-bottom: 3%;
+    }
+
+    .s1{
+        padding-top: 30%;
+    }
+    
+    .spnt h3{
+        font-size: 32px;
+    }
+
+    .p8{
+        width: 40%;
+    }
+    
+    .spc{
+        padding: 2%;
+    }
+
+    .des h3{
+        font-size: 32px;
+    }
+
+    .aboutv{
+        height: 500px;
+    }
+
+    .aboutv img{
+        top: 60%;
+    }
+
+    .appf{
+        background-image: url(..//images/background/meditest-appointment-form.jpg);
+
+        background-repeat: no-repeat;
+        background-position: center;
+        object-fit: cover;
+    }
+
+    .fname{
+        /* border: 2px solid red; */
+    }
+
+    .fname input{
+        width: 50px;
+        /* border: 2px solid red; */
+    }
+
+    .fp input{
+        height: 120px;
+    }
+
+    .fdes h3{
+        font-size: 32px;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 992px){ 
+
+    .cards{
+        width: 28%;
+        top: 60%;
+        left: 70%;
+    }
+
+    .mainbt1 button{
+        width: 91%;
+    }
+
+    .mainbt1{
+        /* border: 2px solid red; */
+        justify-content: left;
+        width: 45%;
+    }
+
+    .mainbt2{
+        justify-content: left;
+        
+    }
+
+    .mainbt2 button{
+        width: 40%;
+        /* height: 60px; */
+    }
+
+    .spcs1{
+        width: 440px;
+        
+    }
+
+    .aboutv{
+        height: 750px;
+    }
+
+    .aboutv img{
+        top: 72%;
+    }
+
+    .fname{
+        width: 230px;
+        border: 2px soild red;
+    }
+
+   .fbtn button{
+        width: 80%;
+   }
+
+   .fname1{
+    width: 230px;
+   }
+
+   .fmail{
+    height: 70px;
+   }
+
+   .fmail button{
+    height: 70px;
+   }
+}
