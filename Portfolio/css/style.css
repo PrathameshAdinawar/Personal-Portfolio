@@ -345,10 +345,10 @@
   background-position: top;
   overflow: scroll;
   cursor:pointer;
-  transition: 3s ease;
+  transition: 5s linear;
  }
  .psize:hover{
-  transition: 5s ease;
+  transition: 5s linear;
   background-position: bottom;
  }
 
