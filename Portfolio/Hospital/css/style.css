@@ -15,16 +15,45 @@
     z-index: 1;
 }
 
+.logo{
+    /* border: 2px solid black; */
+    
+}
 
 .logo img{
-    width: 60%;
+    height: 55px;
+    /* border: 2px solid red; */
 }
 
 .menu{
     width: 50px;
-    height: 45px;
-
+    height: 50px;
+    position: relative;
 }
+
+.menu1{
+    width: 50%;
+    /* border: 2px solid red; */
+    position: relative;
+    
+}
+
+.menu1 ul { 
+    padding: 0; 
+    list-style: none; 
+    text-align: center;
+  }
+  .menu1 li { 
+    font-size: 14px; 
+  }
+  .menu1 a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+  }
 
 .menu img{
     border-radius: 5px;
@@ -33,6 +62,43 @@
     height: 100%;
     padding: 10px;
     background-color: #6666ff;
+}
+
+.sandb{
+    position: relative;
+    top: 10px;
+}
+
+.hsearch-input{
+    border: 0px solid;
+    background: #f3f3f3;
+    border-radius: 126px;
+    width:95%;
+    position: relative;
+    text-indent: 20px;
+    display: inline-block;
+    padding: 10px 0;
+    /* border: 2px solid black; */
+}
+
+.hsearch-button{
+    border: none;
+    position: relative;
+    left: 120px;
+    bottom: 37px;
+    /* border: 2px solid red; */
+}
+
+.contact-button{
+    width: 60%;
+    height: 45px;
+    border-radius: 30px;
+    border: #6666ff;
+    background-color: #6666ff;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 40px;
 }
 
 .main{
