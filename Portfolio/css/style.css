@@ -187,7 +187,6 @@
     display: flex;
     justify-content: space-between;
     cursor: pointer;
-    max-width: 496px;
     padding: 10px;
     padding-bottom: 20px;
     /* background-color: rgba(247, 247, 247, 0);
@@ -232,7 +231,7 @@
       &::after {
         width: 0;
         opacity: 0;
-        transition: width 0 ease;
+        transition: 2s linear;
         /* box-shadow: 0 0 20px 0 rgba(#000000ac, .12); */
       }
       
@@ -336,9 +335,25 @@
   background-image: url(../img/background/gym.jpeg);
 }
 
+.wedding{
+  background-image: url(../img/background/wedding.jpeg);
+}
+
+.hospital{
+  background-image: url(../img/background/hospital.jpeg);
+}
+
+.fashion{
+  background-image: url(../img/background/fashion.jpeg);
+}
+
+.education{
+  background-image: url(../img/background/education.jpeg);
+}
+
  .psize{
   width: 100%;
-  height: 200px;
+  height: 50%;
   border-radius: 10px;
   
   background-size: 100%;
@@ -473,4 +488,39 @@
   .footer h3{
     color: white;
     font-size: 17px;
+  }
+
+  @media(min-width:768px){
+
+    .carousel-item{
+      height: 500px;
+    }
+
+    .psize{
+      height: 60%;
+    }
+
+  }
+
+  @media(min-width:992px){
+
+    .section1img{
+      height: 400px;
+    }
+
+    .section1img::before{
+      height: 400px;
+      width: 400px;
+    }
+
+    .carousel-item{
+      height: 300px;
+    }
+
+    .psize{
+      height: 100%;
+      width: 140%;
+    }
+
+    
   }
