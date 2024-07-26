@@ -79,10 +79,10 @@
 }
 
 .section1img::before {
-	animation: anim 30s infinite;
+	animation: anim 25s infinite;
 	background:url(../img/background/hero.png);
   background-size: 100%;
-  background-position:center;
+  background-position:top;
 	border-radius: 30% 70% 53% 47% / 26% 46% 54% 74%;
   background-size: cover;
   border: 3px solid black;
@@ -355,7 +355,6 @@
   width: 100%;
   height: 200px;
   border-radius: 10px;
-  
   background-size: 100%;
   background-position: top;
   overflow: scroll;
