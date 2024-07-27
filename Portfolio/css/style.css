@@ -5,6 +5,21 @@
     padding: 0;
 }
 
+@keyframes animate {
+  from{
+      opacity: 0;
+      transform: translate(0, 100px);
+      filter: blur(33px);
+  }
+
+  to{
+      opacity: 1;
+      transform: translate(0);
+      filter: blur(0);
+  }
+}
+
+
 .body{
   max-width: 992;
   
@@ -151,6 +166,7 @@
 
 .hi {
     height: 40px;
+    animation: animate 3s linear;
 }
 
 .links{
@@ -266,13 +282,14 @@
     display: table-cell; 
     position: relative; 
     padding: 10px 0;
+    /* animation: animate 1s linear; */
   }
   .menu a {
     color: #000000;
     text-transform: uppercase;
     text-decoration: none;
     /* letter-spacing: 0.15em; */
-    
+    /* animation: animate 1s linear; */
     display: inline-block;
     padding: 15px 20px;
     position: relative;
@@ -320,10 +337,10 @@
  .cards1{
   background-color: white;
   border-radius: 10px;
-  box-shadow: -5px -5px 20px rgb(255, 255, 255),  5px 5px 20px rgba(33,33,33,.2);
+  box-shadow: 5px 5px 30px rgb(255, 255, 255),  5px 5px 20px rgba(33,33,33,.2);
  }
  .carousel-item{
-  height: 400px;
+  height: 450px;
   /* border: 2px solid red; */
  }
 
@@ -351,14 +368,23 @@
   background-image: url(../img/background/education.jpeg);
 }
 
+.renity{
+  background-image: url(../img/background/renity.jpeg);
+}
+
+.petshop{
+  background-image: url(../img/background/petshop.jpeg);
+}
+
  .psize{
   width: 100%;
   height: 200px;
   border-radius: 10px;
   background-size: 100%;
   background-position: top;
-  overflow: scroll;
+  overflow: hidden;
   cursor:pointer;
+  box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.493);
   transition: 5s linear;
  }
  .psize:hover{
@@ -488,16 +514,32 @@
     color: white;
     font-size: 17px;
   }
+  
+
 
   @media(min-width:768px){
 
     .carousel-item{
-      height: 500px;
+      height: 530px;
     }
 
     .psize{
       height: 330px;
       
+    }
+    
+    .cbtn{
+      height: 50px;
+      position: relative;
+      top: 15%;
+     
+    }
+    
+    .clbtn{
+      height: 50px;
+      position: relative;
+      top: 15%;
+     
     }
 
   }
@@ -520,6 +562,20 @@
     .psize{
       height: 350px;
       width: 100%;
+    }
+    
+    .cbtn{
+      height: 50px;
+      position: relative;
+      top: 0;
+      left: 70%;
+    }
+    
+    .clbtn{
+      height: 50px;
+      position: relative;
+      top: 0;
+      right: 65%;
     }
 
     
