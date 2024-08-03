@@ -369,6 +369,10 @@
   background-image: url(../img/background/petshop.jpeg);
 }
 
+.dashboard{
+  background-image: url(../img/background/dashboard.jpeg);
+}
+
  .psize{
   width: 100%;
   height: 200px;
