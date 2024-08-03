@@ -198,22 +198,15 @@
 
   
   .cards {
-    /* position: relative; */
-   
     display: flex;
     justify-content: space-between;
     cursor: pointer;
     padding: 10px;
     padding-bottom: 20px;
-    /* background-color: rgba(247, 247, 247, 0);
-    backdrop-filter: blur(10px); */
     background-color: white;
-    transition: all .35s ease;
     border-radius: 25px;
-    /* box-shadow: 0 5px 11px rgba(33,33,33,.2);  */
     box-shadow: -5px -5px 20px rgb(255, 255, 255),  5px 5px 20px rgba(33,33,33,.2);
-    /* border: 2px solid red; */
-    /* gap: 10px; */
+    transition: all 2s linear;
     
   
     
